@@ -1,1 +1,1 @@
-Hello Git and GitHub
+This is the portfolio of Mark for the course Front End Engineer @ Codecademy
