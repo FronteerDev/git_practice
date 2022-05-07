@@ -1,0 +1,72 @@
+header {
+    background-color: blue;
+    opacity: 0.5;
+    margin: -10px -10px 10px -10px;
+    padding: 20px;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+header:hover {
+    background-color: #5858cb;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#labelName {
+    font-family: "Josefin Sans", sans-serif;
+    margin: auto;
+    width: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#name { 
+    margin: 15px;
+}
+
+#circlebox {
+    position: relative;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#circlebox img {
+    max-width: 200px;
+    align: auto;
+}
+
+#circlebox img:hover {
+    transform: translate(200px,0);
+    cursor: pointer;
+}
+
+#circlebox img.clicked {
+    padding-top: 500px;
+    cursor: pointer;
+}
+
+#demo {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight:bolder;
+}
+
+#tryAgainButton {
+    margin: auto;
+    margin-top: 25px;
+    width: 100px;
+}
+
+button { 
+    font-family: "Josefin Sans", sans-serif;
+    width: 100px;
+}
