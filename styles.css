@@ -16,6 +16,46 @@ header:hover {
     transition: background-color 0.5s ease;
 }
 
+h3 {
+    background-color: blue;
+    opacity: 0.3;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+#form {
+    font-family: "Josefin Sans", sans-serif;
+    width: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 300px;
+}
+
+#favAnimal {
+    margin-left: 183px;
+    margin-bottom: 10px;
+}
+
+#verb {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+#planet {
+    margin-left: 273px;
+    margin-bottom: 10px;
+}
+
+#story {
+    font-weight: bolder;
+}
+
 #labelName {
     font-family: "Josefin Sans", sans-serif;
     margin: auto;
