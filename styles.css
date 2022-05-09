@@ -17,24 +17,23 @@ header:hover {
 }
 
 h3 {
-    background-color: blue;
-    opacity: 0.3;
+    background-color: rgb(198, 198, 255);
+
     font-family: "Josefin Sans", sans-serif;
     font-size: 25px;
     font-weight: 500;
     padding: 10px;
     text-align: center;
-    color: white;
+    color: red;
 }
 
-#form {
+#form, #formMath {
     font-family: "Josefin Sans", sans-serif;
     width: 600px;
     margin-top: 40px;
     margin-bottom: 40px;
     font-size: 16px;
     font-weight: 500;
-    height: 300px;
 }
 
 #favAnimal {
@@ -49,11 +48,16 @@ h3 {
 
 #planet {
     margin-left: 273px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#submit {
+    margin-bottom: 35px;
 }
 
 #story {
     font-weight: bolder;
+    color: red;
 }
 
 #labelName {
@@ -96,17 +100,20 @@ h3 {
 
 #demo {
     font-family: "Josefin Sans", sans-serif;
-    font-size: 25px;
+    font-size: 16px;
     font-weight:bolder;
+    color: red;
 }
 
 #tryAgainButton {
     margin: auto;
     margin-top: 25px;
+    margin-bottom: 75px;
     width: 100px;
 }
 
-button { 
+button, #submit { 
     font-family: "Josefin Sans", sans-serif;
     width: 100px;
+    font-weight: bolder;
 }

@@ -19,35 +19,17 @@
 
 <div id="form">
     <form action="#" onsubmit="makeStory();return false"></form>
-        <label for="favoriteAnimal">What's your favorite animal?</label>
+        <label for="favAnimal">What's your favorite <b>animal?</b></label>
         <input type="text" id="favAnimal" name="favAnimal" required>
         <br>
-        <label for="verb">Name a verb in the past tense (ie 'riding', 'sleeping')</label>
+        <label for="verb">Name a <b>verb</b> in the past tense (ie 'riding', 'sleeping')</label>
         <input type="text" id="verb" name="verb" required>
         <br>
-        <label for="verb">Name a planet</label>
+        <label for="verb">Name a <b>planet</b></label>
         <input type="text" id="planet" name="planet" required> 
-        <input id="submit" type="submit">
-      </form>
-    
-<!--
-    <label for="favoriteAnimal">What's your favorite animal?</label>
-    <input type="text" id="favAnimal" name="favAnimal" required>
-    <br>
-    <label for="verb">Name a verb in the past tense (ie 'riding', 'sleeping')</label>
-    <input type="text" id="verb" name="verb" required>
-    <br>
-    <label for="verb">Name a planet</label>
-    <input type="text" id="planet" name="planet" required>
+        <input id="submit" type="submit" value="submit">
 
-
-</div>
-
-    <button id="storyButton">make the story!</button>
-    -->
-
-    <p id="story"></p>
-
+    <p id="story">your story appears here</p>
 </div>
 
 <h3>just a simple circle game</h3>
@@ -66,6 +48,16 @@
 <div id="tryAgainButton">
     <button onClick="window.location.reload();">try again</button>
 </div>
+
+<h3>practice your math skils</h3>
+
+<div id="formMath">
+    <form action="#" onsubmit="makeStory();return false">What's the correct answer?</form>
+        <label for="answer1">7 x 7 = </label>
+        <input type="number" id="answer1" name="answer1" required>
+        <input id="submit" type="submit" value="check answer">
+</div>
+
 
     <script src="myscripts.js"></script>
 </body>
